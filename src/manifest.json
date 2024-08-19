@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "MapSwitcher",
+  "version": "1.0",
+  "description": "Easily Switch between a multitude of Map Sites.",
+  "icons": {
+    "48": "icons/icon-48.png"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "browser_action": {
+    "default_icon": "icons/icon-48.png",
+    "default_title": "MapSwitcher",
+    "default_popup": "popup/map_switcher.html"
+  }
+}
